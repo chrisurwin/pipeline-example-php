@@ -25,7 +25,5 @@ stages:
   steps:
   - applyYamlConfig:
       path: ./deploy/deployment.yaml
-branch:
-  include:
-  - updated
+branch: {}
 notification: {}
