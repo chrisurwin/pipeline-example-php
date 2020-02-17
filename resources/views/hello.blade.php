@@ -1,7 +1,7 @@
 @extends('layouts.scaffold')
 
 @section('main')
-    <h1>Hello World!~</h1>
+    <h1>Hello Vodafone!~</h1>
     
     @if (count($errors) > 0)
     <div class="alert alert-danger">
