@@ -61,7 +61,7 @@ class AuthCest
 
         $I->amOnPage('/secure');
 
-        $I->see('Hello Chris');
+        $I->see('Hello World');
     }
 
 }
